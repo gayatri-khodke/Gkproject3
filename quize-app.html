@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="quize-app.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+        <title>Quize app using javascript</title>
+    </head>
+    <body>
+    <div id="main">
+        <div class="popupbox" id="pop"></div>
+        <div id="start-quize" onclick="restartquiz()">Strat Quize</div>
+        <div id="box">
+        <h2 id="quesBox">
+            This is the dumi question
+        </h2>
+        <div class="row">
+         <input class="options" id="option1" type="radio" value="a" name="option">
+         <label for="option1">option 1</label>
+        </div>
+        <div class="row">
+            <input class="options" id="option2" type="radio" value="b" name="option">
+            <label for="option2"> option 2</label>
+        </div>
+        <div class="row">
+            <input class="options" id="option3" type="radio" value="c" name="option">
+            <label for="option3">option 3</label>
+        </div>
+        <div class="row">
+            <input class="options" id="option4" type="radio" value="d" name="option"> 
+            <label for="option4">option 4</label>
+        </div>
+        <button class="btn" onclick="submitquiz()">submit</button>
+        <button class="btn" onclick="backquiz()">back</button>
+        <button class="closepop" onclick="closepop()">close popupbox</button>
+
+        </div>
+    </div>
+  <div class="other-quize">
+  <div class="new-quize">
+    <h2>quize on html</h2>
+    <button class="start-btn" id="html-quize" onclick="htmlquize()">start</button>
+    </div>
+    <div class="new-quize">
+    <h2>quize on css</h2>
+    <button  class="start-btn" id="css-quize" onclick="cssquize()">start</button>
+    </div>
+    <div class="new-quize">
+    <h2>quize on js</h2>
+    <button  class="start-btn" id="js-quize" onclick="jsquize()">start</button>
+    </div>
+
+    <div class="new-quize">
+        <h2>quize on c language</h2>
+        <button class="start-btn" id="html-quize" onclick="cquize()">start</button>
+        </div>
+        <div class="new-quize">
+        <h2>quize on python</h2>
+        <button  class="start-btn" id="css-quize" onclick="pythonquize()">start</button>
+        </div>
+        <div class="new-quize">
+        <h2>quize on SQL</h2>
+        <button  class="start-btn" id="js-quize" onclick="sqlquize()">start</button>
+        </div>
+
+  <div class="new-quize">
+    <h2>quize on react language</h2>
+    <button class="start-btn" id="html-quize" onclick="cquize()">start</button>
+    </div>
+    <div class="new-quize">
+    <h2>quize on Java</h2>
+    <button  class="start-btn" id="css-quize" onclick="javaquize()">start</button>
+    </div>
+    <div class="new-quize">
+    <h2>quize on html</h2>
+    <button  class="start-btn" id="js-quize" onclick="sqlquize()">start</button>
+    </div>
+    <div class="new-quize">
+        <h2>quize on css</h2>
+        <button class="start-btn" id="html-quize" onclick="cquize()">start</button>
+        </div>
+        <div class="new-quize">
+        <h2>quize on javascript</h2>
+        <button  class="start-btn" id="css-quize" onclick="pythonquize()">start</button>
+        </div>
+        <div class="new-quize">
+        <h2>quize on react</h2>
+        <button  class="start-btn" id="js-quize" onclick="sqlquize()">start</button>
+        </div>
+</div>
+<footer>
+    <div id="footer1">
+    <h1>follow us</h1>
+    <div class="social-media-icons">
+        <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/yourusername" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    </div>
+    <div id="contact">
+            <h4>Contact us</h4>
+            <h4>Email Id:gayatripatil@gmail.com</h4>
+            <h4>Mo.no:8855897769</h4>
+            <h4>Mo no:9734080833</h4>
+    </div>
+        <!-- Add more social media links as needed -->
+</footer>
+</div>
+    <script src="quize-app.js"></script>
+    </body>
+</html>
